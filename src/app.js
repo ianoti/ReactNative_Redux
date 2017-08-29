@@ -9,7 +9,7 @@ import LibraryList from './components/library-list';
 
 const App = () =>
     <Provider store={createStore(reducers)}>
-      <View>
+      <View style={{ flex: 1 }}>
         <Header headerText="Random Topics" />
         <LibraryList />
       </View>
